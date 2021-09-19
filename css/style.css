@@ -1,0 +1,60 @@
+body{
+    background-image: url(../img/notebook.jpg);
+    background-size: cover;
+     
+}
+
+form{
+    border: linear-gradient(#060606,#fbff04  solid 3.5px);
+    background: linear-gradient(
+        53deg,
+        #ccfffc,
+        #06060649
+         );
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: 25px auto;
+}
+
+
+label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px auto;
+    border: none;
+}
+
+input{
+    border-bottom: solid 1px grey;
+    font-size: 15px;
+    width: 90%;
+   
+}
+
+
+button{
+    color:  violet;
+    font-size: 15px;
+    display: block;
+    border: grey solid 3px;
+    border-radius: solid 3px;
+    padding: 7px;
+    margin: 15px auto;
+}
+
+div {
+    width: 50%;
+    height: fit-content;
+    margin: center;
+  }
+
+  h1 { 
+      font-size: 60px;
+      text-align: center;
+      color: yellowgreen;
+  }
